@@ -12,7 +12,7 @@
 #include <QDataStream>
 #include <QDebug>
 #include <vector>
-
+//  std::vector<unsigned long long> list_of_synapses
 // Function to write a vector to a file
 void writeVectorToFile(const std::vector<int>& vec, const QString& filename) {
     QFile file(filename);
